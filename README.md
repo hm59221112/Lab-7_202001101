@@ -61,3 +61,12 @@ If v is in the middle of a, the function should return the first index i such th
 If v is the last element of a, the function should return a.length - 1.
 
 Boundary Value Analysis:
+If a has one element and it's not v, -1 should be returned.
+If a has one element and it's v, the function should return 0.
+If a has two elements and v is the first element, the function should return 0.
+If a has two elements and v is the second element, the function should return 1.
+If a has n elements and v is the first element, the function should return 0.
+If a has n elements and v is the last element, the function should return n-1.
+If a has n elements and v is not in a, -1 should be returned.
+
+
